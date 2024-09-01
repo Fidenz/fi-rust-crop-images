@@ -4,6 +4,7 @@ use wasm_bindgen::prelude::wasm_bindgen;
 
 use crate::constants::{FAILED_TO_LOAD_SOURCE_IMAGE, FAILED_TO_SAVE_IMAGE};
 
+#[wasm_bindgen]
 pub fn crop_img(
     source_path: &str,
     location_x: u32,
